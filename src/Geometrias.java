@@ -30,8 +30,16 @@ public class Geometrias {
 
         //pruebo si los compareTo sirven de manera correcta
         System.out.println("Area del primero: " + rects[0].calcularArea());
+        System.out.println("Area del segundo: " + tris[3].calcularArea());
+        System.out.println("Comparacion: " + rects[0].compareTo(tris[3]));
+
+        System.out.println("Area del primero: " + circs[1].calcularArea());
         System.out.println("Area del segundo: " + rects[1].calcularArea());
-        System.out.println("Comparacion: " + rects[0].compareTo(rects[1]));
+        System.out.println("Comparacion: " + circs[1].compareTo(rects[1]));
+
+        System.out.println("Area del primero: " + tris[3].calcularArea());
+        System.out.println("Area del segundo: " + circs[2].calcularArea());
+        System.out.println("Comparacion: " + tris[3].compareTo(circs[2]));
 
     }
 }
